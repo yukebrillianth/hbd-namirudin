@@ -275,7 +275,7 @@ const animationTimeline = () => {
         repeat: 3,
         repeatDelay: 3
       },
-      2
+      1
     )
     .to(".six", 0.5, {
       opacity: 0,
