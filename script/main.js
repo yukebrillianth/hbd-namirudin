@@ -17,9 +17,9 @@ const fetchData = () => {
 
         // Check if the iteration is over
         // Run amimation if so
-        if ( dataArr.length === dataArr.indexOf(customData) + 1 ) {
+        if (dataArr.length === dataArr.indexOf(customData) + 1) {
           animationTimeline();
-        } 
+        }
       });
     });
 };
@@ -115,7 +115,7 @@ const animationTimeline = () => {
       0.05
     )
     .to(".fake-btn", 0.1, {
-      backgroundColor: "rgb(127, 206, 248)"
+      backgroundColor: "rgb(0, 168, 132)"
     })
     .to(
       ".four",
@@ -267,15 +267,15 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".eight svg",
-      1.5,
+      1,
       {
         visibility: "visible",
         opacity: 0,
-        scale: 80,
+        scale: 30,
         repeat: 3,
-        repeatDelay: 1.4
+        repeatDelay: 3
       },
-      0.3
+      2
     )
     .to(".six", 0.5, {
       opacity: 0,
