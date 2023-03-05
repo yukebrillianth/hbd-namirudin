@@ -272,10 +272,10 @@ const animationTimeline = () => {
         visibility: "visible",
         opacity: 0,
         scale: 30,
-        repeat: 3,
+        repeat: 2,
         repeatDelay: 3
       },
-      1
+      0.5
     )
     .to(".six", 0.5, {
       opacity: 0,
